@@ -8,3 +8,9 @@ variable "location" {
   type        = string
 
 }
+
+variable "tags" {
+  description = "A prefix to add to the names of the resources."
+  type        = string
+
+}
